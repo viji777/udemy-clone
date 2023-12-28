@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'gabarito',sans-serif;
+}
+.navbar
+{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+
+}
+.navbar__s1
+{
+color: #A435F0;
+
+}
+.navbar__s2
+{
+    border: 2px black solid;
+    padding:10px;
+    margin: 5px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar__s2 input
+{
+border: none;
+width: 100%;
+font-size: 16px;
+}
+
+.navbar__s2 input:focus
+{
+    outline: none;
+}
+.navbar__s3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.categories
+{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px black solid;
+    justify-content: space-around;
+}
+.categories p
+{
+    background-color: #A435F0;
+    color: white;
+    padding:10px ;
+    border-radius: 30px;
+}
+.sale__image img
+{
+    width: 100%;
+
+}
+.recommended
+{
+    padding: 10px;
+}
+.course__card
+{
+    width: 300px;
+}
+.course__card img
+{
+    width: 100%;
+    height: 50%;
+}
+.recommended__container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics
+{
+    padding: 10px;
+}
+.topics__container
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.topics__container p
+{
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+    border: 3px gray solid;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.most__popular
+{
+    padding:  10px;
+}
+.most__popular__container
+{
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.footer__one
+{
+    display: flex;
+    gap: 10px;
+    
+}
+.footer__two
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer
+{
+    background-color: black;
+    color: white;
+ padding: 30px;
+    
+}
+.footer__one p
+{
+    margin: 20px;
+}
